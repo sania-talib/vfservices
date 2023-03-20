@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+}
+@font-face {
+    font-family: cervino;
+    src: url(../fonts/Cervino-ExtraLightNeue.ttf);
+  }
+  @font-face {
+    font-family: cervino-bold;
+    src: url(../fonts/Cervino-BoldNeue.ttf);
+  }
+
+/************* Navbar Css Start  **********/
+.hero-sec{
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav-btn a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #fff;
+text-decoration: none;
+/* border: 1px solid #FFFFFF; */
+border-radius: 100px;
+padding: 14px 30px;
+background-color: #1EAC46;
+}
+
+.hero-sec h1{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 130px;
+color: #fff;
+}
+.hero-sec h1 span{
+    font-family: cervino-bold;
+    color: #1EAC46;
+}
+.hero-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+color: #fff;
+}
+.hero-btn{
+    margin-bottom: 30px;
+}
+.hero-btn a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+text-decoration: none;
+padding: 14px 25px;
+}
+/************* Navbar Css End  **********/
+/************* Benifits Section Css Start  **********/
+.crds{
+    background: #131313;
+border: 1px solid rgba(217, 217, 217, 0.1);
+border-radius: 20px;
+padding: 20px 20px;
+}
+.crds h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.crds p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px !important;
+line-height: 38px;
+color: #C7C7C7;
+}
+.bnft-sec h2{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 90px;
+text-transform: uppercase;
+color: #fff;
+}
+.bnft-sec h2 span{
+    font-family: cervino-bold;
+    color: #1EAC46;
+}
+.bnft-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+color: #C7C7C7;
+}
+/************* Benifits Section Css End  **********/
+/************* Services Section Css Start  **********/
+.servc-sec h2{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 90px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.servc-sec h2 span{
+    font-family: cervino-bold;
+    color: #1EAC46
+}
+.servc-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+text-align: center;
+color: #C7C7C7;
+
+}
+.fuel-crd{
+    background-image: url(../img/crd1.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 30px 60px 30px;
+
+}
+.fuel-crd h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.fuel-crd p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400 !important;
+font-size: 18px !important; 
+line-height: 38px;
+text-align: start;
+color: #C7C7C7;
+}
+.mach-crd{
+    background-image: url(../img/crd2.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 30px 60px 30px;
+
+}
+.mach-crd h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.mach-crd p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400 !important;
+font-size: 18px !important; 
+line-height: 38px;
+text-align: start;
+color: #C7C7C7;
+}
+/************* Services Section Css End  **********/
+/************* Mission Section Css Start  **********/
+.mission-sec{
+    background-color: #131313;
+}
+.mission-sec h2{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 66px;
+line-height: 100px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.mission-sec h2 span{
+    font-family: cervino-bold;
+    color: #1EAC46;
+}
+.mission-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 60px;
+/* or 333% */
+color: #C7C7C7;
+}
+.ms-crd{
+    background: #111111;
+border: 1px solid rgba(217, 217, 217, 0.1);
+border-radius: 20px;
+padding: 25px;
+}
+.ms-crd h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.ms-crd p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 38px;
+color: #C7C7C7;
+margin-bottom: 0px;
+
+}
+/************* Mission Section Css End  **********/
+/************* Faq Section Css Start  **********/
+.faq-sec h1{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 90px;
+/* identical to box height, or 161% */
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.faq-sec h1 span{
+    font-family: cervino-bold;
+    color: #1EAC46; 
+}
+.faq-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+/* identical to box height, or 278% */
+
+text-align: center;
+
+color: #C7C7C7;
+
+}
+.accordion-button{
+    background-color: transparent;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.accordion-body{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 60px;
+/* or 333% */
+
+
+color: #C7C7C7;
+}
+.accordion-button:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.accordion-item{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    margin-bottom: 30px;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+}
+.accordion-button:not(.collapsed){
+    color: #fff !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../img/arrow.png);
+    transform: rotate(-360deg);
+}
+.accordion-button::after{
+    background-image: url(../img/arrow.png);
+    transform: rotate(180deg);
+}
+/************* Faq Section Css End  **********/
+/************* Contact US Section Css Start  **********/
+.form-sec{
+    background-image: url(../img/cntct-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-sec h2{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 90px;
+/* identical to box height, or 161% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.form-sec h2 span{
+    font-family: cervino-bold;
+    color: #1EAC46;
+}
+.form-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 38px;
+/* or 238% */
+
+margin-bottom: 0px;
+color: #C7C7C7;
+
+}
+.form-sec h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.form-control{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.form-control:focus{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.form-sec input{
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+
+}
+.form-sec input::placeholder{
+    color: #FFFFFF;
+}
+.form-sec textarea{
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.form-sec textarea:focus-visible{
+    outline: none;
+    /* border: none; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.form-control:focus{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+}
+.form-btn{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+background-color: #1EAC46;
+padding: 14px 28px;
+border-radius: 100px;
+border: none;
+}
+/************* Contact US Section Css End  **********/
+/************* Fotter Section Css Start  **********/
+.foter-sec p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: right;
+
+color: #FFFFFF;
+
+}
+/************* Fotter Section Css End  **********/
+
+
+
+
+/************* Fuel Form Page Css Start  ************/
+.fuel-hero{
+    background-image: url(../img/fuel-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fuel-form h2{
+    font-family: cervino;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 79px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-top: 150px;
+}
+.fuel-form input{
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+
+}
+.fuel-form input::placeholder{
+    color: #FFFFFF;
+}
+.fuel-btn a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.slect-form p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+/* identical to box height, or 222% */
+color: #FFFFFF;
+}
+.slect-form a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+text-decoration: none;
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+padding: 15px 20px;
+}
+
+
+
+
+.cstm-radio-label {
+    width: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    padding: 15px 20px;
+   
+    margin-right: 10px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #d9d9d9;
+    border-radius: 130px;
+  }
+
+.rd-input {
+    appearance: none;
+  }
+  
+
+  .rd-input:checked + label {
+    background: #1EAC46;
+    color: #fff;
+  }
+.mac-btn a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+text-decoration: none;
+}
+/************* Fuel Form Page Css End  ************/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .hero-sec h1{
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .hero-sec p{
+        font-size: 17px;
+    line-height: 35px;
+
+    }
+    .servc-sec h2{
+        
+    font-size: 30px;
+    line-height: 45px;
+
+    }
+    .servc-sec p{
+        
+    line-height: 35px;
+
+    }
+    .mission-sec h2{
+        font-size: 50px;
+    line-height: 65px;
+
+    }
+    .mission-sec p{
+        
+    font-size: 16px;
+    line-height: 35px;
+
+    }
+    .fuel-form h2{
+        margin-top: 30px;
+        font-size: 45px;
+    }
+}
+
+
+
+
+
+
+
+/* Container media querry Start  */
+@media (min-width: 1800px) {
+    .container {
+      max-width: 1750px;
+    }
+  }
+  /* Container media querry End  */

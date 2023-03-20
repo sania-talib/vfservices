@@ -1,0 +1,43 @@
+
+  
+  #map {
+    height: 50vh;
+    margin-bottom: 10px;
+    display: none;
+  
+
+  }
+  
+  #locationList .card {
+    padding: 10px;
+  }
+  
+  #toast-container {
+    top: 50%;
+    bottom: unset;
+  }
+  
+  .toast {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .btn i {
+    font-size: 1rem;
+    margin-right: 2px;
+  }
+  button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    background: transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 15px 20px;
+  }
